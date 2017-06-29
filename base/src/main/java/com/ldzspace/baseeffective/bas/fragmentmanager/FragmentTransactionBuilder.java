@@ -1,4 +1,4 @@
-package fragmentmanager;
+package com.ldzspace.baseeffective.bas.fragmentmanager;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

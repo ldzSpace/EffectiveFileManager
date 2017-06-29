@@ -17,6 +17,7 @@ ext {
     onActivityResultVersion = '0.6.0'
     autoBundleVersion = '4.1.0'
     autoValueVersion = '1.2'
+    eventBusVersion = '3.0.0'
 
     baseDependencies = [
             androidSupportAppCompatV7: "com.android.support:appcompat-v7:$androidSupportSdkVersion",
@@ -37,7 +38,9 @@ ext {
             multiDex                 : "com.android.support:multidex:$multiDexVersion",
             debugLeakcanary          : "com.squareup.leakcanary:leakcanary-android:1.6-SNAPSHOT",
             releaseLeakcanary        : "com.squareup.leakcanary:leakcanary-android-no-op:1.6-SNAPSHOT",
-            autoValue                : "com.google.auto.value:auto-value:$autoValueVersion"
+            autoValue                : "com.google.auto.value:auto-value:$autoValueVersion",
+            eventBus                 : "org.greenrobot:eventbus:$eventBusVersion"
+
     ]
     appDependencies = [recyclerViewV7                : "com.android.support:recyclerview-v7:$androidSupportSdkVersion",
                        anrWatchDog                   : "com.github.anrwatchdog:anrwatchdog:1.3.0",

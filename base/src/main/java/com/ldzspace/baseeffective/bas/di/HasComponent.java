@@ -1,4 +1,4 @@
-package di;
+package com.ldzspace.baseeffective.bas.di;
 
 /**
  * @作者 liudazhi
